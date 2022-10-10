@@ -1,0 +1,131 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+
+
+/* 1) Colorer tous les en-tête <h2> en couleur pourpre (purple) */
+h2 {
+    color: purple;
+}
+
+
+/* 2) Donner à l’élément <body> un background de couleur #bdc3c7 */
+body {
+    background-color: #bdc3c7;
+}
+
+
+/* 3) Donner à l’élément <h1> la couleur #9b59b6 */
+h1 {
+    color: #9b59b6;
+}
+
+
+/* 4) Colorer tous les en-tête <h2> en couleur orange. Que constatez-vous pour la règle 1? */
+h2 {
+    color: orange;
+}
+
+/* we note role one is overridden  */
+
+
+
+/* 5) Colorer tous les éléments <li> en bleu. */
+ul li {
+    color: blue;
+}
+
+
+/* 6) changer le background de chaque paragraphe en couleur jaune. */
+p {
+    background-color: yellow;
+}
+
+
+/* 7) Entourer tous les inputs d’une bordure rouge de 3px */
+input {
+    border: 3px solid red;
+}
+
+
+/* 8) Donner à tous les éléments de classe 'hello' un background rose. */
+.hello {
+    background-color: pink;
+}
+
+
+/* 9) Donner à l’élément ayant pour id 'special' une bordure bleue de 2px */
+#special {
+    border: 2px solid blue
+}
+
+
+/* 10) Donner à tous les éléments <p> à l‘intérieur de <div>s une taille de police (font-size:25px) */
+div p {
+    font-size: 25px;
+}
+
+
+/* 11) Donner à tous les inputs de type 'text' un background gris. */
+input[type="text"] {
+    background-color: grey;
+}
+
+
+
+/* 12) Donner aux 2 <p> à l’intérieur de la 3ème <div> un background pink. */
+
+div:nth-of-type(3) p {
+    background-color: pink;
+}
+
+
+/* 13) Donner aux 2ème <p> à l’intérieur de la 3ème <div> une bordure blanche de 5px. */
+
+div:nth-of-type(3) p:nth-child(3) {
+    border: 5px solid white
+}
+
+/* 14) Rendre l’élément <em> dans la 3ème <div> blanc avec une police de 20px(font-size:20px) */
+
+div:nth-of-type(3) em {
+    font-size: 20px;
+}
+
+
+
+/* CHALLENGE */
+
+
+
+/* 15) Placer une marge gauche de 50px(margin-left: 50px) à toutes checkboxes qui sont "checked". */
+input:checked {
+    margin-left: 50px;
+}
+
+
+/* 16) Mettre le contenu de tous les éléments <label> en MAJUSCULE sans changer le code HTML du document. */
+label {
+    text-transform: uppercase;
+}
+
+
+
+/* 17) Mettre la première lettre de l’élément avec l’id 'special' en vert (green) et avec une police de taille 100px(font-size: 100) */
+p[id="special"]::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* 18) Changer la couleur de tous les éléments <h1>au passage de la souris (hovered over) */
+h1:hover {
+    color: antiquewhite;
+}
+
+
+/* 19) Changer la couleur de tous les éléments <a> qui ont été visités en gris. */
+a:visited {
+    color: grey;
+}
