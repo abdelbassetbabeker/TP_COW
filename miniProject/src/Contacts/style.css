@@ -1,0 +1,24 @@
+.serchInput {
+    /* background-color: aqua; */
+    display: flex;
+    width: 95%;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    padding: .5rem .5rem;
+}
+
+.serchInput select {
+    padding: .5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.serchInput input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 0 1rem;
+
+}
