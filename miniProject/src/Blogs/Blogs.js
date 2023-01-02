@@ -23,7 +23,7 @@ const Blogs = () => {
             <div className='navigationWrapper'>
                 <NavLink
                     className='navlink'
-                    to="displayBlogs"
+                    to="displayPosts"
                     style={({ isActive }) =>
                         isActive ? activeStyle : undefined
                     }
@@ -33,7 +33,7 @@ const Blogs = () => {
                 </NavLink>
                 <NavLink
                     className='navlink'
-                    to="createBlogs"
+                    to="createPost"
                     style={({ isActive }) =>
                         isActive ? activeStyle : undefined
                     }

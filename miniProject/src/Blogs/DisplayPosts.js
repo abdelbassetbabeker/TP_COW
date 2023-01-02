@@ -3,7 +3,7 @@ import Post from './Post';
 import { useOutletContext } from 'react-router-dom'
 import './style.css'
 
-const DisplayBlogs = () => {
+const DisplayPosts = () => {
 
     const [blogs, setBlogs] = useOutletContext()
     const [dynamicValues, setDynamicValues] = useState(blogs)
@@ -60,4 +60,4 @@ const DisplayBlogs = () => {
     );
 }
 
-export default DisplayBlogs;
+export default DisplayPosts;

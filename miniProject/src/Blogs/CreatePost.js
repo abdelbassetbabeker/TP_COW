@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useOutletContext } from 'react-router-dom';
 
-const CreateBlogs = () => {
+const CreatePost = () => {
 
     const navigate = useNavigate();
     const [blogs, setBlogs] = useOutletContext()
@@ -56,4 +56,4 @@ const CreateBlogs = () => {
     );
 }
 
-export default CreateBlogs;
+export default CreatePost;
